@@ -13,5 +13,3 @@ class App < Sinatra::Base
     @puppy = Puppy.new(@name, @breed, @age)
   end
 end
-
-# @name, breed, age)

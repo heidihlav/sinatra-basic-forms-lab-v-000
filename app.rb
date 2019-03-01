@@ -11,8 +11,6 @@ class App < Sinatra::Base
 
   post '/puppy' do
     @puppy
-    binding.pry
-
      Puppy.new(params[@name, @breed, @age])
   end
 end
